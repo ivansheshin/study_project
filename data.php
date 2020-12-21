@@ -1,5 +1,5 @@
 <?php
-// ставки пользователей, которыми надо заполнить таблицу
+
 $bets = [
     ['name' => 'Иван', 'price' => 11500, 'ts' => strtotime('-' . rand(1, 50) .' minute')],
     ['name' => 'Константин', 'price' => 11000, 'ts' => strtotime('-' . rand(1, 18) .' hour')],
@@ -19,6 +19,4 @@ $price_list = [
     ['title' => 'Куртка для сноуборда DC Mutiny Charocal', 'category' => 'Одежда', 'price' => 7500, 'URL'=> './img/lot-5.jpg'],
     ['title' => 'Маска Oakley Canopy', 'category' => 'Разное', 'price' => 5400, 'URL' => './img/lot-6.jpg'],
 ];
-function priceFormat($value) {
-    return number_format($value, 0, ' ', ' ') . ' &#8381';
-};
+$title = 'Yeticave аукцион';
